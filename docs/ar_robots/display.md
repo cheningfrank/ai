@@ -5,6 +5,7 @@ nav_order: 1
 parent: ar_robots
 ---
 
+# display and code
 
 {: .note }
 > function of our ar_robots
@@ -59,7 +60,7 @@ onReady() {
 
   },
 ```
-
+---
 
 {: .warning }
 > 机器人各项参数代码设置

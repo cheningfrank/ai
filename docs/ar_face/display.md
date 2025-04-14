@@ -5,6 +5,9 @@ nav_order: 1
 parent: ar_face
 ---
 
+
+# display and codes
+
 {: .note }
 > function of our ar_face
 
