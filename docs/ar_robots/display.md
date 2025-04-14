@@ -5,8 +5,7 @@ nav_order: 1
 parent: ar_robots
 ---
 
-{ :.warning }
-image 
-dfasf
+{ : .note }
+> Image
 
 

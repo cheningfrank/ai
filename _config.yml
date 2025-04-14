@@ -38,4 +38,7 @@ callouts:
   warning:
     title: Code
     color: blue
+  note:
+    title: Appearance
+    color: green
 nav_enabled: true
