@@ -7,7 +7,7 @@ parent: ar_robots
 
 
 {: .note }
-> Image of our ar_robots' function
+> function of our ar_robots
 
 ---
 

@@ -6,7 +6,7 @@ parent: ar_face
 ---
 
 {: .note }
-> 人脸检测效果
+> function of our ar_face
 ---
 
 ![face_detection](../../assets/face.jpg)
