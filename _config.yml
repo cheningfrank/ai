@@ -6,7 +6,8 @@ url: https://cheningfrank.github.io/ai
 
 aux_links:
   Github Repository: https://github.com/ChenXinjie04/miniprogram
-
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
