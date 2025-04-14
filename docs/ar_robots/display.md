@@ -18,7 +18,7 @@ parent: ar_robots
 ## 具体代码实现
 
 {: .warning } 
-> 获取3d模型
+> 获取3d模型(完整代码请参考首页提供的github仓库链接)
 
 ```js
 onReady() {
@@ -63,7 +63,7 @@ onReady() {
 ---
 
 {: .warning }
-> 机器人各项参数代码设置
+> 机器人各项参数代码设置(完整代码请参考首页提供的github仓库链接)
 
 ```js
 const cameraBusiness = require('../../utils/cameraBusiness.js')

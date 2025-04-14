@@ -17,7 +17,7 @@ parent: ar_face
 
 
 {: .warning }
-> 人脸检测关键代码
+> 人脸检测关键代码(完整代码请参考首页提供的github仓库链接)
 
 ```js
   initFaceDetect_callback(predictions) {
