@@ -13,7 +13,7 @@ parent: ar_robots
 
 ![our image of our robots](../../assets/ar_robots.jpg)
 
-{: .warning }
+
 ## 具体代码实现
 
 {: .warning } 
@@ -59,7 +59,7 @@ onReady() {
 
   },
 ```
-
+{: .warning }
 > 机器人各项参数代码设置
 
 ```js
