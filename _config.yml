@@ -36,5 +36,5 @@ search:
 
 callouts:
   warning:
-    title: Warning
-    color: red
+    title: Code
+    color: Blue
