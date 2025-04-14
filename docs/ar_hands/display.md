@@ -13,7 +13,7 @@ parent: ar_hands
 
 ---
 
-![face_detection](../../assets/ar_hands.jpg)
+![hands_detection](../../assets/ar_hands.jpg)
 
 
 {: .warning }
