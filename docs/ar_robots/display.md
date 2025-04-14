@@ -4,7 +4,62 @@ title: display
 nav_order: 1
 parent: ar_robots
 ---
+
+
+{: .note }
+> Image of our ar_robots' function
+
+---
+
+![our image of our robots](../../assets/ar_robots.jpg)
+
 {: .warning }
+## 具体代码实现
+
+{: .warning } 
+> 获取3d模型
+
+```js
+onReady() {
+    console.log('onReady')
+
+    // 获取小程序右上角胶囊按钮的坐标，用作自定义导航栏。
+    const menuButton = wx.getMenuButtonBoundingClientRect()
+
+    this.setData({
+      // 胶囊按钮与手机屏幕顶端的间距
+      menuButtonTop: menuButton.top,
+      // 胶囊按钮的高度
+      menuButtonHeight: menuButton.height,
+    })
+
+    // 获取画布组件
+    wx.createSelectorQuery()
+      .select('#' + canvasId)
+      .node()
+      .exec(res => {
+        // 画布组件
+        canvas1 = res[0].node
+        // 启动AR会话
+        cameraBusiness.initEnvironment(canvas1)
+        // 加载3D模型
+        cameraBusiness.loadModel(robotUrl, function (model, animations) {
+          // 创建AR的坐标系
+          cameraBusiness.initWorldTrack(model)
+          // 加载3D模型的动画
+          cameraBusiness.createAnimation(model, animations, 'Dance')
+        })
+        // webgl画面录制器
+        recorder = wx.createMediaRecorder(canvas1, {
+          fps: recorderFPS,
+        })
+
+      })
+
+
+  },
+```
+
 > 机器人各项参数代码设置
 
 ```js
@@ -26,9 +81,5 @@ var isRecording = false
 ```
 
 
-{: .note }
-> Image of our ar_robots' function
-
-![our image of our robots](../../assets/ar_robots.jpg)
 
 
