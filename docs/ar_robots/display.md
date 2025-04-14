@@ -6,6 +6,7 @@ parent: ar_robots
 ---
 
 { : .note }
-> Image
+> Image of our ar_robots' function
+
 
 
