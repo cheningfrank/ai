@@ -1,6 +1,6 @@
 ---
 layout: default
-title: display
+title: display_face
 nav_order: 1
 parent: ar_face
 ---
