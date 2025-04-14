@@ -7,6 +7,7 @@ parent: ar_face
 
 {: .note }
 > function of our ar_face
+
 ---
 
 ![face_detection](../../assets/face.jpg)
