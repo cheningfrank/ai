@@ -42,4 +42,8 @@ callouts:
   note:
     title: Appearance
     color: green
+  ahead:
+    title: Warning
+    color: red
+
 nav_enabled: true
