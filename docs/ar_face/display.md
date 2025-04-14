@@ -7,11 +7,13 @@ parent: ar_face
 
 {: .note }
 > 人脸检测效果
-![face_detection](_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=2514558115606173940&skey=@crypt_df57b896_027782af29f63862b4189d874c74e08f&mmweb_appid=wx_webfilehelper.jpg)
+
+![face_detection](../../assets/face.jpg)
 
 
 {: .warning }
 > 人脸检测关键代码
+
 ```js
   initFaceDetect_callback(predictions) {
         if (predictions && predictions.length > 0) {
