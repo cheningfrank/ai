@@ -5,7 +5,7 @@ theme: just-the-docs
 url: https://cheningfrank.github.io/ai
 
 aux_links:
-  Github Repository: 
+  Github Repository: https://github.com/ChenXinjie04/miniprogram
 
 search_enabled: true
 search:
