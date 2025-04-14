@@ -28,6 +28,7 @@ var isRecording = false
 
 {: .note }
 > Image of our ar_robots' function
+
 ![our image of our robots](../../assets/ar_robots.jpg)
 
 
