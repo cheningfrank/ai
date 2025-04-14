@@ -2,6 +2,7 @@
 title: ar_robots
 nav_order: 2
 layout: default
+has_children: true
 ---
 # AR_robots
 ## 使用技术

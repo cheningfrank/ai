@@ -38,3 +38,4 @@ callouts:
   warning:
     title: Code
     color: blue
+nav_enabled: true

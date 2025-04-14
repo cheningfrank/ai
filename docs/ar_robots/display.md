@@ -6,4 +6,6 @@ parent: ar_robots
 
 { :.warning }
 image 
+dfasf
+
 
