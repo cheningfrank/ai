@@ -7,6 +7,7 @@ parent: ar_face
 
 {: .note }
 > 人脸检测效果
+---
 
 ![face_detection](../../assets/face.jpg)
 
