@@ -18,7 +18,7 @@ parent: ar_robots
 ## 具体代码实现
 
 {: .warning } 
-> 获取3d模型(完整代码请参考首页提供的github仓库链接)
+> 获取3d模型(完整代码请参考顶部提供的github仓库链接)
 
 ```js
 onReady() {

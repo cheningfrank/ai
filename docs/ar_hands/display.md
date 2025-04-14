@@ -17,7 +17,7 @@ parent: ar_hands
 
 
 {: .warning }
-> 手部检测 关键代码(完整代码请参考首页提供的github仓库链接)
+> 手部检测 关键代码(完整代码请参考顶部提供的github仓库链接)
 
 ```js
 function handDetect(frame, sourceType) {
