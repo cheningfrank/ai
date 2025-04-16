@@ -47,3 +47,5 @@ callouts:
     color: red
 
 nav_enabled: true
+
+favicon_ico: "/assets/ai.ico"
