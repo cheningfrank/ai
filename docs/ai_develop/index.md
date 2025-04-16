@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ai_develop
-nav_order: 6
+nav_order: 7
 ---
 
 # 小程序开发心得：技术协作与创新的融合
