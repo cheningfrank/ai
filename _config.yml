@@ -49,3 +49,4 @@ callouts:
 nav_enabled: true
 
 favicon_ico: "/assets/ai.ico"
+logo: "/assets/ai.png"
